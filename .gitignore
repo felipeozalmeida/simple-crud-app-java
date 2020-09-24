@@ -1,0 +1,6 @@
+# System folders
+.idea/
+.vscode/
+.DS_Store
+
+# Project folders
