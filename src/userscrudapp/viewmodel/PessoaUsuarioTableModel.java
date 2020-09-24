@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
-import userscrudapp.model.bean.PessoaUsuarioBean;
+import userscrudapi.model.bean.PessoaUsuarioBean;
 
 @SuppressWarnings("serial")
 public class PessoaUsuarioTableModel extends AbstractTableModel {

@@ -3,7 +3,7 @@ package userscrudapp.viewmodel;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
-import userscrudapp.model.bean.PessoaBean;
+import userscrudapi.model.bean.PessoaBean;
 
 @SuppressWarnings("serial")
 public class PessoaTableModel extends AbstractTableModel {

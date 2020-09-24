@@ -3,7 +3,7 @@ package userscrudapp.viewmodel;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
-import userscrudapp.model.bean.UsuarioBean;
+import userscrudapi.model.bean.UsuarioBean;
 
 @SuppressWarnings("serial")
 public class UsuarioTableModel extends AbstractTableModel {
