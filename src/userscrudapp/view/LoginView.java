@@ -9,8 +9,8 @@ import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 
-import userscrudapp.controller.UsuarioController;
-import userscrudapp.model.bean.UsuarioBean;
+import userscrudapi.controller.UsuarioController;
+import userscrudapi.model.bean.UsuarioBean;
 
 /**
  *

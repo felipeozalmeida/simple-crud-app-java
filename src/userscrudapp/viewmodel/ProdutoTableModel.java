@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import javax.swing.table.AbstractTableModel;
 
-import userscrudapp.model.bean.ProdutoBean;
+import userscrudapi.model.bean.ProdutoBean;
 
 @SuppressWarnings("serial")
 public class ProdutoTableModel extends AbstractTableModel {

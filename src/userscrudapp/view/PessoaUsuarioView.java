@@ -22,8 +22,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.event.MouseInputAdapter;
 
-import userscrudapp.controller.PessoaUsuarioController;
-import userscrudapp.model.bean.PessoaUsuarioBean;
+import userscrudapi.controller.PessoaUsuarioController;
+import userscrudapi.model.bean.PessoaUsuarioBean;
 import userscrudapp.viewmodel.PessoaUsuarioTableModel;
 
 /**
