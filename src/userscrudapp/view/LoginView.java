@@ -20,7 +20,7 @@ public class LoginView {
 
     private static UsuarioController ContUsu = null;
 
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+    public static void main(final String[] args) throws ClassNotFoundException, SQLException {
         // Configuração
         LoginView.ContUsu = new UsuarioController();
 
@@ -28,14 +28,15 @@ public class LoginView {
         if (valida()) {
             // UsuarioView.main();
             // PessoaView.main();
-            PessoaUsuarioView.main();
+            // PessoaUsuarioView.main();
+            ProdutoView.main();
         }
     }
 
     public static boolean valida() throws SQLException {
-        String login = JOptionPane.showInputDialog("Entre com o Login");
-        String senha = JOptionPane.showInputDialog("Entre com o Senha");
-        UsuarioBean usu = LoginView.ContUsu.valida(new UsuarioBean(0, login, senha, "", ""));
+        final String login = JOptionPane.showInputDialog("Entre com o Login");
+        final String senha = JOptionPane.showInputDialog("Entre com o Senha");
+        final UsuarioBean usu = LoginView.ContUsu.valida(new UsuarioBean(0, login, senha, "", ""));
 
         if (usu == null) { return false; }
         JOptionPane.showMessageDialog(null, usu);

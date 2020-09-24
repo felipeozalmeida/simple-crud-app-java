@@ -27,3 +27,12 @@ ALTER TABLE users_crud_app.usuarios_pessoas
     ADD CONSTRAINT FK_PES_USU_ID FOREIGN KEY (idPessoa) REFERENCES users_crud_app.pessoas (id);
 ALTER TABLE users_crud_app.usuarios_pessoas
     ADD CONSTRAINT FK_USU_PES_ID FOREIGN KEY (idUsuario) REFERENCES users_crud_app.usuarios (id);
+
+CREATE TABLE users_crud_app.produtos (
+  id BIGINT NOT NULL AUTO_INCREMENT,
+  cod VARCHAR(255),
+  nome VARCHAR(255),
+  valor BIGINT,
+  quant BIGINT,
+  PRIMARY KEY (id)
+);
