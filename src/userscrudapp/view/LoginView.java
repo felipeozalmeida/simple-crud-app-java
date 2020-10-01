@@ -29,7 +29,8 @@ public class LoginView {
             // UsuarioView.main();
             // PessoaView.main();
             // PessoaUsuarioView.main();
-            ProdutoView.main();
+            // ProdutoView.main();
+            FornecedorView.main();
         }
     }
 
